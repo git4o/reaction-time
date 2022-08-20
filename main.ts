@@ -113,7 +113,10 @@ basic.forever(function () {
         } else if (P1 < P2) {
             basic.showString("P2 Wins! Resetting...")
             control.reset()
-        } else {
+        } else if (P1 == P2 && settings == 0) {
+            basic.showString("Tie! One More!")
+            rounds += 1
+        } else if (P2 == P1 && settings == 0) {
             basic.showString("Tie! One More!")
             rounds += 1
         }
