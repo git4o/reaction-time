@@ -100,8 +100,8 @@ start = 0
 end = 0
 rounds = 0
 settings = 1
-basic.showString("# of rounds?",90)
-basic.showString("P0 + P1 - P2 = OK",90)
+basic.showString("# of rounds?",100)
+basic.showString("P0 + P1 - P2 = OK",100)
 basic.forever(function () {
     if (settings == 1) {
         basic.showNumber(rounds)
